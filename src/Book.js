@@ -16,7 +16,7 @@ const Book = (props) => {
         <h1>{title}</h1>
         <h4>{author}</h4>
         <button type='button' onClick={clickHandler}>Refrences</button>
-        <button type='button' onClick={()=> complexExample(author)}>more complex </button>
+        <button type='button' onClick={()=> complexExample(author)}>More...</button>
     </article>
     );
 };
